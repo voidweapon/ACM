@@ -11,7 +11,7 @@ namespace HDU
 	namespace HDU1059
 	{
 		/*
-			´ò±í
+			æ‰“è¡¨
 		*/
 #ifdef DEBUG
 		ifstream cin("./TestData/hdu1059.txt");

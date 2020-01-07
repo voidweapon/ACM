@@ -8,12 +8,12 @@ namespace HDU
 	namespace HDU1027
 	{
 		/*
-			¸ø¶¨1-NµÄÊý£¬Çó´ÓÐ¡µ½´óÅÅÐòµÄµÚM¸öÐòÁÐ¡£
-			1.È«ÅÅÁÐ
-			2.ËÑË÷
-			3.¿µÍÐÄæÕ¹¿ª
+			ç»™å®š1-Nçš„æ•°ï¼Œæ±‚ä»Žå°åˆ°å¤§æŽ’åºçš„ç¬¬Mä¸ªåºåˆ—ã€‚
+			1.å…¨æŽ’åˆ—
+			2.æœç´¢
+			3.åº·æ‰˜é€†å±•å¼€
 
-			1<=N<=1000, 1<=M<=10000 : M < 8! ËùÒÔÖ»ÐèÒªÇó8½×
+			1<=N<=1000, 1<=M<=10000 : M < 8! æ‰€ä»¥åªéœ€è¦æ±‚8é˜¶
 		*/
 		ifstream cin("E:\\Vidweapon\\GitHub\\ACM\\ACM-HDU\\ACM-HDU\\TestData\\hdu1027.txt");
 		extern void HDU_1027();

@@ -9,8 +9,8 @@ namespace HDU
 	namespace HDU1016
 	{
 		/*
-			简单的深度搜索题目(DFS)
-			提前打出素数表，加快素数判断
+			绠�鍗曠殑娣卞害鎼滅储棰樼洰(DFS)
+			鎻愬墠鎵撳嚭绱犳暟琛紝鍔犲揩绱犳暟鍒ゆ柇
 
 		*/
 

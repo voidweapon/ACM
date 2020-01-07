@@ -90,8 +90,8 @@ namespace HDU
 
 	namespace HDU1175_2 
 	{
-		//�Ż�1���ڹս���==2ʱ���жϵ�ǰ���Ե��յ�ķ��򣬲��ڵ�ǰ��������϶����ﲻ����
-		//�Ż�2��
+		//优化1：在拐角数==2时，判断当前各自到终点的方向，不在当前方向上则肯定到达不到。
+		//优化2：
 		ifstream cin("E:\\Vidweapon\\GitHub\\ACM\\ACM-HDU\\ACM-HDU\\TestData\\hdu1175.txt");
 		extern void Solution();
 

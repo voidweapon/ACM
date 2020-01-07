@@ -44,7 +44,7 @@ namespace HDU
 				newX = dir[j][0] + x, newY = dir[j][1] + y;
 				if (!areaIsInvalid(newX, newY))
 				{
-					//Èç¹ûÏÂÒ»¸ö¸ñ×ÓÒÑ¾­×ß¹ı£¬ÇÒÊ£ÓàÊ±¼ä 
+					//å¦‚æœä¸‹ä¸€ä¸ªæ ¼å­å·²ç»èµ°è¿‡ï¼Œä¸”å‰©ä½™æ—¶é—´ 
 					if (visited[newX][newY] && steps[newX][newY] <= steps[x][y] && times[newX][newY] > times[x][y] - 1) continue;
 
 					visited[newX][newY] = true;

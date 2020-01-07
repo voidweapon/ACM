@@ -10,9 +10,9 @@ namespace HDU
 	namespace HDU1077
 	{
 		/*
-			�뾶ΪR��Բ����ܸ��Ƕ��ٵ�
-			ÿ�������뾶R��Բ����Բ�Ľ����У��ҵ�����ص����Σ�Բ����
-			Ѱ���ص����������ཻ���Ŀ�ʼ�ǶȺͽ����Ƕ����������ص���
+			半径为R的圆最多能覆盖多少点
+			每个点做半径R的圆，在圆的交集中，找到最多重叠几次（圆交）
+			寻找重叠：将所有相交弧的开始角度和结束角度排序（区间重叠）
 			-|sa-----|sb----|ea------|eb---------------------
 
 			-|sa-----|sb----|eb------|ea---------------------
@@ -69,7 +69,7 @@ namespace HDU
 					dis = Distance(fishPoints[i][0], fishPoints[i][1], fishPoints[j][0], fishPoints[j][1]);
 					if (dis <= R)
 					{
-						//�����ཻ���Ŀ�ʼ&�����Ƕ�
+						//计算相交弧的开始&结束角度
 						radiusAngle = acos((dis / 2.0f) / r);
 						angle = atan2(fishPoints[i][1] - fishPoints[j][1], fishPoints[i][0] - fishPoints[j][0]);
 						angles[m].angle = angle - radiusAngle;
@@ -80,10 +80,10 @@ namespace HDU
 						m++;
 					}
 				}
-				//��ʼ�Ƕ����ȣ��Ƕ�ԽСԽ����
+				//开始角度优先，角度越小越优先
 				sort(angles, angles + m, sort_func);
 
-				//�󻡵��ص�����
+				//求弧的重叠数量
 				for (int h = 0; h < m; h++)
 				{
 					if (angles[h].istart)

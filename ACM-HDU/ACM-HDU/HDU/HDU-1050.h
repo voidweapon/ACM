@@ -12,9 +12,9 @@ namespace HDU
 	namespace HDU1050
 	{
 		/*
-			Î´Í¨¹ý£¡£¡£¡
-			ÒÆ¶¯×À×ÓÊ±×ßÀÈµÄ×î´óÖØµþ´ÎÊý = ×îÉÙµÄÒÆ¶¯´ÎÊý
-			ÒòÎªÖØµþµÄµØ·½ÎÞ·¨Í¨¹ýµ÷ÕûÏÈºó´ÎÐòÀ´»¯½â
+			æœªé€šè¿‡ï¼ï¼ï¼
+			ç§»åŠ¨æ¡Œå­æ—¶èµ°å»Šçš„æœ€å¤§é‡å æ¬¡æ•° = æœ€å°‘çš„ç§»åŠ¨æ¬¡æ•°
+			å› ä¸ºé‡å çš„åœ°æ–¹æ— æ³•é€šè¿‡è°ƒæ•´å…ˆåŽæ¬¡åºæ¥åŒ–è§£
 		*/
 #ifdef DEBUG
 		ifstream cin("./TestData/hdu1050.txt");
