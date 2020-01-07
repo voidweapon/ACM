@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Directories potentially created on remote AFP share
+ACM-HDU/.vs
+ACM-HDU/ACM-HDU.VC.VC.opendb
+ACM-HDU/ACM-HDU.VC.db
+ACM-HDU/.vs/ACM-HDU/v14/.suo
+ACM-HDU/ACM-HDU/ACM-HDU.vcxproj
+ACM-HDU/ACM-HDU/ACM-HDU.vcxproj.filters
+ACM-HDU/ACM-HDU/ACM-HDU.vcxproj.user
+ACM-HDU/ipch/ACM-HDU-b6e4ce5f/ACM-HDU-732ce24b.ipch
+ACM-HDU/Debug/
+ACM-HDU/ACM-HDU/Debug/
